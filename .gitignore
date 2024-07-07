@@ -1,0 +1,7 @@
+target/
+gurobi*/
+logs/
+models/
+
+!logs/.keep
+!models/.keep
