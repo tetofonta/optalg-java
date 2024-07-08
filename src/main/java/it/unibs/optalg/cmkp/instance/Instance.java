@@ -1,6 +1,7 @@
 package it.unibs.optalg.cmkp.instance;
 
 import gurobi.*;
+import it.unibs.optalg.cmkp.EntryPoint;
 import it.unibs.optalg.cmkp.kernel.Bucket;
 import it.unibs.optalg.cmkp.kernel.Bucketable;
 
@@ -53,7 +54,7 @@ public class Instance extends ArrayList<Lot> implements Copiable {
     }
 
     public void write(String model_name) throws GRBException {
-        this.model.write(String.format("./models/%s.lp", model_name));
+        this.model.write(String.format("%s/models/%s.lp", EntryPoint.PATH_PREFIX, model_name));
     }
 
     public void optimize(double timeout) throws GRBException {
@@ -89,7 +90,7 @@ public class Instance extends ArrayList<Lot> implements Copiable {
         var env = new GRBEnv();
         env.set(GRB.DoubleParam.MIPGap, 1e-8);
         env.set(GRB.IntParam.LogToConsole, 0);
-        env.set(GRB.StringParam.LogFile, String.format("./logs/%s", inst.name()));
+        env.set(GRB.StringParam.LogFile, String.format("%s/logs/%s", EntryPoint.PATH_PREFIX, inst.name()));
 
         var model = new GRBModel(env);
         model.set(GRB.IntAttr.ModelSense, GRB.MAXIMIZE);
@@ -136,7 +137,7 @@ public class Instance extends ArrayList<Lot> implements Copiable {
         var env = new GRBEnv();
         env.set(GRB.DoubleParam.TimeLimit, 5);
         env.set(GRB.IntParam.LogToConsole, 0);
-        env.set(GRB.StringParam.LogFile, String.format("./logs/%s", instance_name));
+        env.set(GRB.StringParam.LogFile, String.format("%s/logs/%s", EntryPoint.PATH_PREFIX, instance_name));
 
         var model = new GRBModel(env);
         model.set(GRB.IntAttr.ModelSense, GRB.MAXIMIZE);

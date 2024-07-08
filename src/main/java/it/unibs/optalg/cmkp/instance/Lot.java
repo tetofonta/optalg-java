@@ -1,6 +1,7 @@
 package it.unibs.optalg.cmkp.instance;
 
 import gurobi.*;
+import it.unibs.optalg.cmkp.EntryPoint;
 import it.unibs.optalg.cmkp.kernel.Bucket;
 import it.unibs.optalg.cmkp.kernel.Bucketable;
 
@@ -85,7 +86,7 @@ public class Lot extends ArrayList<Building> implements Selectable, Copiable, Co
         var env = new GRBEnv();
         env.set(GRB.DoubleParam.TimeLimit, 5);
         env.set(GRB.IntParam.LogToConsole, 0);
-        env.set(GRB.StringParam.LogFile, String.format("./logs/%s", instance_name));
+        env.set(GRB.StringParam.LogFile, String.format("%s/logs/%s", EntryPoint.PATH_PREFIX, instance_name));
 
         var model = new GRBModel(env);
         model.set(GRB.IntAttr.ModelSense, GRB.MAXIMIZE);
