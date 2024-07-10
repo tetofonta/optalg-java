@@ -1,0 +1,75 @@
+prefix runs/instance_500_5_30_8/3_0.2_0.1_overlapped/std
+instance instances/instance_500_5_30_8.json
+timelimit 600
+kernelTime 18
+bucketTime 18
+kernelSize 0.2
+bucketSize 0.1
+lotsPerIt 3
+overlapped true
+filterBuildings false
+filterLots false
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter MIPGap to value 1e-08
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+SOL IT 0 BUKET 0 VAL 61636.00 OK true TOOK 0.09
+SOL IT 0 BUKET 1 VAL 63263.00 OK true TOOK 15.82
+SOL IT 0 BUKET 2 VAL 63420.00 OK true TOOK 33.84
+SOL IT 0 BUKET 3 VAL 63420.00 OK true TOOK 51.94
+NO SOL IT 0 BUKET 4 TOOK 56.48
+NO SOL IT 0 BUKET 5 TOOK 57.53
+NO SOL IT 0 BUKET 6 TOOK 57.79
+NO SOL IT 0 BUKET 7 TOOK 58.09
+NO SOL IT 0 BUKET 8 TOOK 58.38
+NO SOL IT 0 BUKET 9 TOOK 58.92
+NO SOL IT 0 BUKET 10 TOOK 59.30
+NO SOL IT 0 BUKET 11 TOOK 59.61
+NO SOL IT 0 BUKET 12 TOOK 59.93
+NO SOL IT 0 BUKET 13 TOOK 60.09
+NO SOL IT 0 BUKET 14 TOOK 60.19
+NO SOL IT 0 BUKET 15 TOOK 60.24
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+SOL IT 1 BUKET 0 VAL 82598.00 OK true TOOK 79.94
+SOL IT 1 BUKET 1 VAL 83651.00 OK true TOOK 97.95
+SOL IT 1 BUKET 2 VAL 84431.00 OK true TOOK 116.02
+SOL IT 1 BUKET 3 VAL 85155.00 OK true TOOK 134.05
+SOL IT 1 BUKET 4 VAL 85301.00 OK true TOOK 152.22
+SOL IT 1 BUKET 5 VAL 85687.00 OK true TOOK 170.28
+SOL IT 1 BUKET 6 VAL 85817.00 OK true TOOK 188.34
+NO SOL IT 1 BUKET 7 TOOK 206.38
+NO SOL IT 1 BUKET 8 TOOK 224.47
+NO SOL IT 1 BUKET 9 TOOK 242.65
+NO SOL IT 1 BUKET 10 TOOK 260.87
+NO SOL IT 1 BUKET 11 TOOK 279.04
+NO SOL IT 1 BUKET 12 TOOK 297.20
+NO SOL IT 1 BUKET 13 TOOK 315.37
+NO SOL IT 1 BUKET 14 TOOK 333.46
+NO SOL IT 1 BUKET 15 TOOK 351.56
+Took 351s
+SOL VAL 85817.00 OK true

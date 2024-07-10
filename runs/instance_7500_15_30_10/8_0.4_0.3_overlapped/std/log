@@ -1,0 +1,11 @@
+prefix runs/instance_7500_15_30_10/8_0.4_0.3_overlapped/std
+instance instances/instance_7500_15_30_10.json
+timelimit 600
+kernelTime 75
+bucketTime 75
+kernelSize 0.4
+bucketSize 0.3
+lotsPerIt 8
+overlapped true
+filterBuildings false
+filterLots false

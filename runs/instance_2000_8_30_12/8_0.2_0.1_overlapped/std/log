@@ -1,0 +1,59 @@
+prefix runs/instance_2000_8_30_12/8_0.2_0.1_overlapped/std
+instance instances/instance_2000_8_30_12.json
+timelimit 600
+kernelTime 37
+bucketTime 37
+kernelSize 0.2
+bucketSize 0.1
+lotsPerIt 8
+overlapped true
+filterBuildings false
+filterLots false
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter MIPGap to value 1e-08
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+SOL IT 0 BUKET 0 VAL 304212.00 OK true TOOK 37.36
+SOL IT 0 BUKET 1 VAL 315839.00 OK true TOOK 74.78
+SOL IT 0 BUKET 2 VAL 322335.00 OK true TOOK 112.04
+SOL IT 0 BUKET 3 VAL 325653.00 OK true TOOK 149.22
+SOL IT 0 BUKET 4 VAL 328701.00 OK true TOOK 186.39
+SOL IT 0 BUKET 5 VAL 329623.00 OK true TOOK 223.53
+SOL IT 0 BUKET 6 VAL 330512.00 OK true TOOK 260.68
+SOL IT 0 BUKET 7 VAL 330512.00 OK true TOOK 297.82
+NO SOL IT 0 BUKET 8 TOOK 334.96
+NO SOL IT 0 BUKET 9 TOOK 372.12
+NO SOL IT 0 BUKET 10 TOOK 409.31
+NO SOL IT 0 BUKET 11 TOOK 446.48
+NO SOL IT 0 BUKET 12 TOOK 483.65
+NO SOL IT 0 BUKET 13 TOOK 520.81
+NO SOL IT 0 BUKET 14 TOOK 557.99
+NO SOL IT 0 BUKET 15 TOOK 595.15
+Took 595s
+SOL VAL 330512.00 OK true

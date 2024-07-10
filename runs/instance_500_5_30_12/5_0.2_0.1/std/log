@@ -1,0 +1,42 @@
+prefix runs/instance_500_5_30_12/5_0.2_0.1/std
+instance instances/instance_500_5_30_12.json
+timelimit 600
+kernelTime 66
+bucketTime 66
+kernelSize 0.2
+bucketSize 0.1
+lotsPerIt 5
+overlapped false
+filterBuildings false
+filterLots false
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter MIPGap to value 1e-08
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+SOL IT 0 BUKET 0 VAL 80847.00 OK true TOOK 66.10
+SOL IT 0 BUKET 1 VAL 84300.00 OK true TOOK 132.34
+SOL IT 0 BUKET 2 VAL 85337.00 OK true TOOK 198.36
+NO SOL IT 0 BUKET 3 TOOK 264.94
+NO SOL IT 0 BUKET 4 TOOK 331.54
+NO SOL IT 0 BUKET 5 TOOK 398.30
+NO SOL IT 0 BUKET 6 TOOK 465.09
+NO SOL IT 0 BUKET 7 TOOK 531.63
+Took 531s
+SOL VAL 85337.00 OK true

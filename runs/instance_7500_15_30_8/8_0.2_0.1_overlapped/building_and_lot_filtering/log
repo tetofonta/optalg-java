@@ -1,0 +1,120 @@
+prefix runs/instance_7500_15_30_8/8_0.2_0.1_overlapped/building_and_lot_filtering
+instance instances/instance_7500_15_30_8.json
+timelimit 600
+kernelTime 18
+bucketTime 18
+kernelSize 0.2
+bucketSize 0.1
+lotsPerIt 8
+overlapped true
+filterBuildings true
+filterLots true
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter MIPGap to value 1e-08
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+SOL IT 0 BUKET 0 VAL 727635.00 OK true TOOK 2.00
+SOL IT 0 BUKET 1 VAL 756853.00 OK true TOOK 20.14
+SOL IT 0 BUKET 2 VAL 771890.00 OK true TOOK 38.26
+SOL IT 0 BUKET 3 VAL 780645.00 OK true TOOK 56.38
+SOL IT 0 BUKET 4 VAL 785592.00 OK true TOOK 74.50
+SOL IT 0 BUKET 5 VAL 786968.00 OK true TOOK 92.62
+SOL IT 0 BUKET 6 VAL 787078.00 OK true TOOK 110.75
+NO SOL IT 0 BUKET 7 TOOK 128.88
+NO SOL IT 0 BUKET 8 TOOK 147.04
+NO SOL IT 0 BUKET 9 TOOK 165.21
+NO SOL IT 0 BUKET 10 TOOK 183.33
+NO SOL IT 0 BUKET 11 TOOK 201.46
+NO SOL IT 0 BUKET 12 TOOK 219.61
+NO SOL IT 0 BUKET 13 TOOK 237.76
+NO SOL IT 0 BUKET 14 TOOK 255.91
+NO SOL IT 0 BUKET 15 TOOK 274.09
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+SOL IT 1 BUKET 0 VAL 1039230.00 OK true TOOK 311.21
+SOL IT 1 BUKET 1 VAL 1057210.00 OK true TOOK 329.34
+SOL IT 1 BUKET 2 VAL 1073324.00 OK true TOOK 347.44
+SOL IT 1 BUKET 3 VAL 1083531.00 OK true TOOK 365.54
+SOL IT 1 BUKET 4 VAL 1093680.00 OK true TOOK 383.66
+SOL IT 1 BUKET 5 VAL 1102109.00 OK true TOOK 401.76
+SOL IT 1 BUKET 6 VAL 1108276.00 OK true TOOK 419.86
+SOL IT 1 BUKET 7 VAL 1111745.00 OK true TOOK 437.98
+SOL IT 1 BUKET 8 VAL 1114721.00 OK true TOOK 456.09
+SOL IT 1 BUKET 9 VAL 1115314.00 OK true TOOK 474.19
+SOL IT 1 BUKET 10 VAL 1115847.00 OK true TOOK 492.29
+SOL IT 1 BUKET 11 VAL 1116168.00 OK true TOOK 510.40
+NO SOL IT 1 BUKET 12 TOOK 528.50
+NO SOL IT 1 BUKET 13 TOOK 546.59
+NO SOL IT 1 BUKET 14 TOOK 564.69
+NO SOL IT 1 BUKET 15 TOOK 582.90
+Took 582s
+SOL VAL 1116168.00 OK true

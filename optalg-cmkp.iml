@@ -7,6 +7,7 @@
       <excludeFolder url="file://$MODULE_DIR$/logs" />
       <excludeFolder url="file://$MODULE_DIR$/models" />
       <excludeFolder url="file://$MODULE_DIR$/optalg-cmkp-java" />
+      <excludeFolder url="file://$MODULE_DIR$/runs" />
     </content>
   </component>
 </module>

@@ -1,0 +1,51 @@
+prefix runs/instance_2000_8_30_10/8_0.2_0.1/std
+instance instances/instance_2000_8_30_10.json
+timelimit 600
+kernelTime 66
+bucketTime 66
+kernelSize 0.2
+bucketSize 0.1
+lotsPerIt 8
+overlapped false
+filterBuildings false
+filterLots false
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter MIPGap to value 1e-08
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+Set parameter Username
+Academic license - for non-commercial use only - expires 2024-10-20
+Set parameter TimeLimit to value 5
+SOL IT 0 BUKET 0 VAL 305310.00 OK true TOOK 66.37
+SOL IT 0 BUKET 1 VAL 322039.00 OK true TOOK 132.82
+SOL IT 0 BUKET 2 VAL 328159.00 OK true TOOK 199.31
+SOL IT 0 BUKET 3 VAL 331907.00 OK true TOOK 265.36
+NO SOL IT 0 BUKET 4 TOOK 331.56
+NO SOL IT 0 BUKET 5 TOOK 398.01
+NO SOL IT 0 BUKET 6 TOOK 464.46
+NO SOL IT 0 BUKET 7 TOOK 530.92
+Took 530s
+SOL VAL 331907.00 OK true
